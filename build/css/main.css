@@ -1,6 +1,5 @@
 body {
-  background: rgb(0, 183, 255);
-
+  background: #00b7ff;
 }
 
 .box {
@@ -18,18 +17,18 @@ body {
   left: 25%;
   width: 50%;
   height: 60%;
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   border-radius: 50%;
 }
 
 .head:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0%;
   width: 100%;
   height: 100%;
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   border-radius: 50%;
   z-index: 1;
 }
@@ -40,20 +39,19 @@ body {
   height: 65%;
   left: -20%;
   top: 5%;
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   border-radius: 50%;
 }
 
 .ear1:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 90%;
   height: 90%;
   left: 7%;
   top: 5%;
-  background: rgb(142, 141, 141);
+  background: #8e8d8d;
   border-radius: 50%;
-  
 }
 
 .ear2 {
@@ -62,20 +60,19 @@ body {
   height: 65%;
   right: -20%;
   top: 5%;
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   border-radius: 50%;
 }
 
 .ear2:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 90%;
   height: 90%;
   right: 7%;
   top: 5%;
-  background: rgb(142, 141, 141);
+  background: #8e8d8d;
   border-radius: 50%;
-  
 }
 
 .eye1 {
@@ -90,7 +87,7 @@ body {
 }
 
 .eye1:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 30%;
   height: 30%;
@@ -98,7 +95,6 @@ body {
   top: 35%;
   background: black;
   border-radius: 50%;
-  
 }
 
 .eye2 {
@@ -113,7 +109,7 @@ body {
 }
 
 .eye2:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 30%;
   height: 30%;
@@ -123,58 +119,57 @@ body {
   border-radius: 50%;
 }
 
-
 .nose {
   position: absolute;
   width: 100px;
   height: 100px;
   left: 37.5%;
   top: 39.5%;
-  background: rgb(199, 133, 65);
+  background: #c78541;
   border-radius: 50%;
   z-index: 1;
 }
 
 .nose:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 25%;
-  background: rgb(199, 133, 65);
+  background: #c78541;
   border-radius: 35%;
 }
 
 .nose:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 40%;
-  background: rgb(199, 133, 65);
+  background: #c78541;
   border-radius: 50%;
 }
 
 .hairs:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 20%;
   height: 15%;
   right: 50%;
   top: -9%;
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 .hairs:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 10%;
   height: 8%;
   left: 58%;
   top: -4%;
-  background: rgb(184, 184, 184);
+  background: #b8b8b8;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
